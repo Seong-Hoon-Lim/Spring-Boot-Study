@@ -107,4 +107,15 @@ public class ThymeleafExController {
         model.addAttribute("param2", param2);
         return "thymeleafEx/thymeleafEx06";
     }
+
+    /**
+     * layout 을 활용한 예제 컨트롤러
+     * @return
+     */
+    @GetMapping(value = "/ex07")
+    public String thymeleafExample07() {
+        return "thymeleafEx/thymeleafEx07";
+    }
+
+
 }
